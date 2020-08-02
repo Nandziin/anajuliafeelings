@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Júlia Feelings</title>
+    <link rel="stylesheet" href="anajulia.css">
+</head>
+<body>
+    <header>
+        <h1>Ana Júlia Feelings</h1>
+    </header>
+
+    <section>
+        <center>
+        <div>
+               Como gostaria de ver Ana Júlia?
+            <p>
+                <input type="radio" name="rademoc" id="feliz" checked>
+                <label for="feliz">Feliz</label>
+                <input type="radio" name="rademoc" id="triste">
+                <label for="triste">Triste</label>
+                <input type="radio" name="rademoc" id="sono">
+                <label for="sono">Com sono</label>
+                <input type="radio" name="rademoc" id="careta">
+                <label for="careta">Fazendo careta</label>
+            </p>
+                <input type="button" value="Verificar" onclick="verificar()">
+        </div>
+        </center>
+        <p><div id="res" style="text-align: center;">
+            <div id="texto"></div>
+            <div id="imagem"></div>
+        </div></p>
+    </section>
+    
+    <footer>
+        <p>&copy; Nandziin</p>
+    </footer>
+    <script src="anajulia.js"></script>
+</body>
+</html>
